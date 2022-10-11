@@ -1,6 +1,7 @@
 import React from 'react';
 
-const Options = ({option,id}) => {
+const Options = ({option,id,}) => {
+  // console.log(option)
   return (
 
       <div className="form-check form-check-inline">

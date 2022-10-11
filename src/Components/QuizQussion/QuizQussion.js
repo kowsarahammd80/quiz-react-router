@@ -7,7 +7,7 @@ import QuizList from '../QuizList/QuizList';
 const QuizQussion = () => {
   let qussions = useLoaderData(); 
   let quss = qussions.data.questions
-  console.log(quss)
+  console.log(quss.correctAnswer)
   
   return (
   <div className='container mt-5 mb-3'>
