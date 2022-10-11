@@ -10,7 +10,7 @@ const Quizs = ({quiz}) => {
             <img src={logo} class="card-img-top" alt="..."/>
          <div class="card-body">
            <h5 class="card-title">{name}</h5>
-            {/* <p class="card-text "><Link to={`/quiz/${id}`}> <button className ='bg-info p-2 border-0 fw-bold'>Start Quiz</button> </Link></p> */}
+            <p class="card-text "><Link to={`/quiz/${id}`}> <button className ='bg-info p-2 border-0 fw-bold'>Start Quiz</button> </Link></p>
          </div>
        </div>
       </div>

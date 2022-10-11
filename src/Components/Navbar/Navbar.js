@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const Navbar = () => {
   return (
     <div>
@@ -11,11 +12,17 @@ const Navbar = () => {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div className="navbar-nav">
-          <NavLink className="nav-link active fw-bold ms-5" to='/home'>Home</NavLink>
-          <NavLink className="nav-link active fw-bold ms-5"                        to='/statictics'>Statistics</NavLink>
-          <NavLink className="nav-link active fw-bold ms-5" to='/block'>Block</NavLink>
-      </div>
+     
+     <div className="navbar-nav">
+       
+      
+        <NavLink className="nav-link active fw-bold ms-5" to='/home'>Home</NavLink>
+        <NavLink className="nav-link active fw-bold ms-5" to='/statictics'>Statistics</NavLink>
+        <NavLink className="nav-link active fw-bold ms-5" to='/block'>Block</NavLink>
+     
+       
+    </div>
+     
     </div>
   </div>
 </nav>
