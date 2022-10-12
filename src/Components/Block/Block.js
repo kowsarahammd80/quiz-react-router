@@ -27,7 +27,7 @@ const Block = () => {
     <div className="card">
       
       <div className="card-body">
-        <h5 className="card-title">What is useRef hook ?</h5>
+        <h5 className="card-title">What is useRef() hook ?</h5>
         <p className="card-text">A hook is a special function which enables one use state and other React features without writing ES6 className components which are generally considered difficult to understand, use and master.
 useRef hook is part of the React Hooks API. It is a function which takes a maximum of one argument and returns an Object. The returned object has a property called current whose value is the argument passed to useRef. If you invoke it without an argument, the returned object's current property is set to undefined. The code below illustrates how to invoke the useRef hook in functional components.</p>
       </div>
