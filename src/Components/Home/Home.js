@@ -10,15 +10,13 @@ const Home = () => {
   return (
     <div className='container '>
       
-      <div className="card text-bg-light  border-0">
-         <img src={logo} className="card-img" alt="..."/>
-        <div className="card-img-overlay">
-         <h1 className="card-title mt-3  ">Welcome Web Online Quiz</h1>
-         <p className="card-text fw-bold">Never giveup and keep  larning</p>
+    <div className='py-5'>
+    <h1 className="  ">Welcome Programing Quiz Mailston </h1>
+         <p className="">Never giveup and keep  larning</p>
          <p className="card-text"><small></  small></p>
-        </div>
-      </div>
-      <div className="row row-cols-1 row-cols-md-2 g-4 m-3">
+         <img className='img-fluid' src={logo} alt="" />
+    </div>
+      <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 m-3">
        {
 
           quizes.data.map(quiz => <Quizs quiz={quiz} key={quiz.id}></Quizs>)

@@ -1,32 +1,28 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import './Navbar.css'
 
 
 const Navbar = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg bg-light">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-     
-     <div className="navbar-nav">
-       
-      
-        <NavLink className="nav-link active fw-bold ms-5" to='/home'>Home</NavLink>
-        <NavLink className="nav-link active fw-bold ms-5" to='/statictics'>Statistics</NavLink>
-        <NavLink className="nav-link active fw-bold ms-5" to='/block'>Block</NavLink>
-     
-       
-    </div>
-     
-    </div>
-  </div>
-</nav>
-    </div>
+    
+      <nav class=" navbar navbar-expand-lg bg-light">
+        <div class="container">
+        <Link className="navbar-brand text-info" href="#">Programing-Quiz-Mailston</Link>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <NavLink className="nav-link fw-bold ms-5" to='home'>Home</NavLink>
+              <NavLink className="nav-link  fw-bold ms-5" to='statictics'>Statistics</NavLink>
+              <NavLink className="nav-link fw-bold ms-5" to='block'>Block</NavLink>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    
   );
 };
 
