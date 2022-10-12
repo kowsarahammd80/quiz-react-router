@@ -16,7 +16,7 @@ const QuizQussion = () => {
       
        {
        
-       quss.map(qus => <QuizList qus={qus} key={qus.id} questions={qussions}></QuizList>)
+      //  quss.map(qus => <QuizList qus={qus} key={qus.id} questions={qussions}></QuizList>)
         
        }
        
