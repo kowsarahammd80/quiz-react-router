@@ -15,7 +15,7 @@ My project name is <b>Programing-Quiz-Mailstone</b>. My project is about quiz co
 
 ### Live website link
 
-live website: [https://wonderful-crisp-27b4e7.netlify.app/block]
+live website: (https://wonderful-crisp-27b4e7.netlify.app/home)
 
 
 ### Project source code link
