@@ -11,7 +11,7 @@ const Home = () => {
     <div className='container '>
       
     <div className='py-5'>
-    <h1 className="  ">Welcome Programing Quiz Mailston </h1>
+    <h1 className="  ">Welcome Programing Quiz Mailstone </h1>
          <p className="">Never giveup and keep  larning</p>
          <p className="card-text"><small></  small></p>
          <img className='img-fluid' src={logo} alt="" />
